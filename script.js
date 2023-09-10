@@ -20,5 +20,20 @@ function firstNonRepeatedChar(str) {
 
   return null;
 }
+
 const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+const result = firstNonRepeatedChar(input);
+
+if (result !== null) {
+  alert(result);
+} else {
+  alert("null");
+}
+const input = prompt("Enter a string");
+const result = firstNonRepeatedChar(input);
+
+if (result !== null) {
+  alert(result);
+} else {
+  alert("null");
+}
