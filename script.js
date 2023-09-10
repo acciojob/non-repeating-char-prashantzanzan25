@@ -29,11 +29,3 @@ if (result !== null) {
 } else {
   alert("null");
 }
-const input = prompt("Enter a string");
-const result = firstNonRepeatedChar(input);
-
-if (result !== null) {
-  alert(result);
-} else {
-  alert("null");
-}
